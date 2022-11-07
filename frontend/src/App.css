@@ -1,0 +1,178 @@
+.nav-ul li{
+   display: inline-block;
+   padding: 10px;
+}
+.nav-ul li a{
+  color:white;
+  padding: 5px;
+  text-decoration: none;
+
+}
+.nav-ul {
+  padding: 5px;
+  margin: 0;
+  background-color: skyblue;
+}
+.footer{
+  position: absolute;
+  bottom: 0;
+  text-align: center;
+  width: 100%;
+  background-color: skyblue;
+}
+.inputBox{
+  display: block;
+  margin: 25px;
+  padding: 7px;
+  width: 300px;
+  border: 1px solid skyblue;
+}
+.register, .product{
+  margin-left: 40%;
+}
+.login{
+  margin-left: 30%;
+  margin-top: 100px;
+}
+.btn{
+  margin: 25px;
+  padding: 10px;
+  width: 150px;
+  background-color: skyblue;
+  border: 1px solid;
+  cursor: pointer;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.nav-right{
+  text-align:right;
+}
+.logo {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  float: left;
+  margin-top: 3px;
+  margin-left: 10px;
+}
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.invalid-input {
+  display: block;
+  color: red;
+  margin-top: -20px;
+  margin-left: 20px;
+}
+
+.product-list {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.product-list ul li {
+  display: inline-block;
+  width: 150px;
+  border: 1px solid skyblue;
+  padding: 5px;
+}
+
+.product-list ul{
+  margin: 0;
+}
+
+.search-product-box {
+  width: 400px;
+  margin: 20px;
+  height: 38px;
+  padding-left: 30px;
+  border: solid 1px skyblue;
+}
+.appButton{
+  text-decoration:none;
+   max-width:auto;
+   background-color:skyblue;
+   color:rgb(255 255 255);
+   padding:1.4rem 2.4rem;
+   border:none;
+
+   text-align:center;
+  
+   transition:all 0.3s ease;
+   -webkit-transition:all 0.3s ease 0s;
+   -moz-transition:all 0.3s ease 0s;
+   -o-transition:all 0.3s ease 0s;
+}
+   .appButton:hover,
+   .appButton:active{
+    box-shadow:0 2rem 2rem 0 rgb(132 144 255 / 30%);
+    background-color:blue;
+    transform: scale(0.96);
+}
+
+.button {
+  font-family:'Open Sans';
+  font-size: 16px;
+  font-weight:400;
+  display:inline-block;
+  text-decoration: none;
+  display: inline-block;
+  border-radius: .25em;
+
+  text-shadow: -1px -1px 0px rgba(0,0,0,0.4);
+}
+
+.condensed {
+  transition:ease-in-out .2s;
+  line-height:24px;
+  padding: 0 8px;
+  box-shadow: 1px 1px 1px rgba(0,0,0,0.25);
+}
+.edit {
+  background: skyblue;
+  color: white;
+}
+
+
+.cancel {
+  background: skyblue;
+  margin: 2px;
+  color: red;
+  cursor: pointer;
+}
+
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
